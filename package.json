@@ -1,0 +1,9 @@
+{
+  "name": "track-vision-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-first browser vision studio for faces, hands, gestures and objects.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.mjs", "test": "node --test", "check": "node --check app.js && node --check tracking.js && node --check server.mjs" }
+}

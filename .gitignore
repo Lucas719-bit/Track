@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+# Local reference images, not application assets
+*.jfif
+Screenshot-2025-04-07-131214.webp
